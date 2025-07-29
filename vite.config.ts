@@ -17,5 +17,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "besigheim-hilft",
+  base: mode === "production" ? "/besigheim-hilft/" : "/",
 }));
