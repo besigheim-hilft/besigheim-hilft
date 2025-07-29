@@ -21,7 +21,7 @@ const FAQ = () => {
     },
     {
       question: "Muss ich für Hilfe bezahlen oder für das Helfen Geld verlangen?",
-      answer: "Die meiste Hilfe wird kostenlos als Teil des Aufbaus von Gemeinschaftsverbindungen geleistet. Für zeitaufwändige Services wie Babysitting oder Hausreparaturen können Nachbarn jedoch eine faire Entschädigung vereinbaren. Unsere Plattform unterstützt sowohl kostenlose Gefälligkeiten als auch bezahlte Services."
+      answer: "Nein! Alle Hilfe auf unserer Plattform ist kostenlos und ehrenamtlich. Wir sind eine rein gemeinnützige Initiative und niemand nimmt Geld für Nachbarschaftshilfe an. Wenn jemand seine Dankbarkeit ausdrücken möchte, ermutigen wir dazu, eine Spende an eine gemeinnützige Organisation zu machen - so haben wir doppelt etwas Gutes getan!"
     },
     {
       question: "Woher weiß ich, ob jemand vertrauenswürdig ist?",
@@ -61,7 +61,7 @@ const FAQ = () => {
           </p>
         </div>
 
-        <div className="bg-card rounded-3xl p-8 shadow-glow">
+        <div className="bg-card rounded-3xl p-8 shadow-glow mb-8">
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="border-b border-border/50">

@@ -7,7 +7,7 @@ const Impressum = () => {
       <Header />
       <div className="min-h-screen bg-background py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="bg-card rounded-3xl p-8 shadow-glow">
+          <div className="bg-card rounded-3xl p-8 shadow-glow mb-8">
             <h1 className="text-4xl font-bold mb-8 bg-gradient-hero bg-clip-text text-transparent">
               Impressum
             </h1>
