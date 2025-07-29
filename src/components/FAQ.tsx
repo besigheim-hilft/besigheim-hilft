@@ -8,44 +8,44 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "How do I get started on the platform?",
-      answer: "Simply click either 'Ask for Help' or 'Offer Help' to create your account. You'll verify your address to connect with your immediate neighborhood, then you can start helping or requesting assistance right away."
+      question: "Wie fange ich auf der Plattform an?",
+      answer: "Klicke einfach auf 'Um Hilfe bitten' oder 'Hilfe anbieten', um dein Konto zu erstellen. Du verifizierst deine Adresse, um dich mit deiner direkten Nachbarschaft zu vernetzen, dann kannst du sofort anfangen zu helfen oder um Unterstützung zu bitten."
     },
     {
-      question: "Is it safe to help strangers in my neighborhood?",
-      answer: "Safety is our top priority. All users verify their address and identity. We have a community rating system, background checks for certain services, and guidelines for safe meetups. Always meet in public spaces when possible and trust your instincts."
+      question: "Ist es sicher, Fremden in meiner Nachbarschaft zu helfen?",
+      answer: "Sicherheit ist unsere oberste Priorität. Alle Nutzer verifizieren ihre Adresse und Identität. Wir haben ein Gemeinschaftsbewertungssystem, Hintergrundprüfungen für bestimmte Services und Richtlinien für sichere Treffen. Trefft euch möglichst an öffentlichen Orten und vertraut auf euer Bauchgefühl."
     },
     {
-      question: "What types of help can I request or offer?",
-      answer: "Almost anything! Common requests include borrowing tools, pet sitting, ride sharing, home repairs, childcare, grocery shopping, meal sharing, and emergency assistance. If it's legal and neighborly, it's welcome on our platform."
+      question: "Welche Art von Hilfe kann ich anfragen oder anbieten?",
+      answer: "Fast alles! Häufige Anfragen umfassen Werkzeugausleihe, Haustiersitting, Fahrgemeinschaften, Hausreparaturen, Kinderbetreuung, Einkaufen, gemeinsame Mahlzeiten und Nothilfe. Wenn es legal und nachbarschaftlich ist, ist es auf unserer Plattform willkommen."
     },
     {
-      question: "Do I have to pay for help or charge for helping?",
-      answer: "Most help is given freely as part of building community connections. However, for time-intensive services like babysitting or home repairs, neighbors can agree on fair compensation. Our platform supports both free favors and paid services."
+      question: "Muss ich für Hilfe bezahlen oder für das Helfen Geld verlangen?",
+      answer: "Die meiste Hilfe wird kostenlos als Teil des Aufbaus von Gemeinschaftsverbindungen geleistet. Für zeitaufwändige Services wie Babysitting oder Hausreparaturen können Nachbarn jedoch eine faire Entschädigung vereinbaren. Unsere Plattform unterstützt sowohl kostenlose Gefälligkeiten als auch bezahlte Services."
     },
     {
-      question: "How do I know if someone is trustworthy?",
-      answer: "Check their profile for verification badges, read reviews from other neighbors, and see how long they've been active in the community. Start with small favors to build trust, and always communicate through our platform initially."
+      question: "Woher weiß ich, ob jemand vertrauenswürdig ist?",
+      answer: "Überprüfe ihr Profil auf Verifizierungsabzeichen, lies Bewertungen von anderen Nachbarn und schaue, wie lange sie schon in der Gemeinschaft aktiv sind. Beginne mit kleinen Gefälligkeiten, um Vertrauen aufzubauen, und kommuniziere anfangs immer über unsere Plattform."
     },
     {
-      question: "What if I can't help someone right now?",
-      answer: "No worries! You can politely decline any request, and there's no obligation to help. Many neighbors prefer to offer help when they have time rather than responding to specific requests. The platform works best when everyone participates as they're able."
+      question: "Was ist, wenn ich gerade nicht helfen kann?",
+      answer: "Kein Problem! Du kannst jede Anfrage höflich ablehnen, und es gibt keine Verpflichtung zu helfen. Viele Nachbarn bieten lieber Hilfe an, wenn sie Zeit haben, anstatt auf spezifische Anfragen zu antworten. Die Plattform funktioniert am besten, wenn jeder nach seinen Möglichkeiten teilnimmt."
     },
     {
-      question: "Can I use this for emergencies?",
-      answer: "For life-threatening emergencies, always call 911 first. Our platform is great for urgent but non-emergency situations like needing a ride to the hospital, finding someone to watch kids during a crisis, or getting help after a minor accident."
+      question: "Kann ich das für Notfälle nutzen?",
+      answer: "Bei lebensbedrohlichen Notfällen rufe immer zuerst den Notruf 112. Unsere Plattform ist großartig für dringende, aber nicht lebensbedrohliche Situationen wie einen Fahrdienst ins Krankenhaus, jemanden zu finden, der in einer Krise auf die Kinder aufpasst, oder Hilfe nach einem kleinen Unfall zu bekommen."
     },
     {
-      question: "How do I report inappropriate behavior?",
-      answer: "Every profile and interaction has a report button. We take all reports seriously and investigate promptly. Inappropriate behavior can result in warnings, temporary suspension, or permanent removal from the platform depending on severity."
+      question: "Wie melde ich unangemessenes Verhalten?",
+      answer: "Jedes Profil und jede Interaktion hat einen Melden-Button. Wir nehmen alle Meldungen ernst und untersuchen sie umgehend. Unangemessenes Verhalten kann je nach Schwere zu Verwarnungen, vorübergehender Sperrung oder dauerhaftem Ausschluss von der Plattform führen."
     },
     {
-      question: "Is my personal information kept private?",
-      answer: "Yes, we only share the minimum information needed for neighbors to help each other. Your exact address is never shown - only your general neighborhood. You control what personal details to include in your profile."
+      question: "Werden meine persönlichen Daten privat gehalten?",
+      answer: "Ja, wir teilen nur die minimal notwendigen Informationen, damit sich Nachbarn gegenseitig helfen können. Deine genaue Adresse wird nie angezeigt - nur deine allgemeine Nachbarschaft. Du kontrollierst, welche persönlichen Details du in deinem Profil angibst."
     },
     {
-      question: "Can I help people outside my immediate neighborhood?",
-      answer: "While the platform focuses on immediate neighbors for convenience and safety, you can expand your help radius in settings. Many users help within a few blocks of their home, and some join multiple neighborhood groups."
+      question: "Kann ich Menschen außerhalb meiner direkten Nachbarschaft helfen?",
+      answer: "Während sich die Plattform auf direkte Nachbarn für Bequemlichkeit und Sicherheit konzentriert, kannst du deinen Hilfe-Radius in den Einstellungen erweitern. Viele Nutzer helfen in einem Umkreis von wenigen Häuserblocks um ihr Zuhause, und manche treten mehreren Nachbarschaftsgruppen bei."
     }
   ];
 
@@ -54,10 +54,10 @@ const FAQ = () => {
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
-            Frequently Asked Questions
+            Häufig gestellte Fragen
           </h2>
           <p className="text-xl text-muted-foreground">
-            Everything you need to know about helping and getting help from your neighbors.
+            Alles, was du über das Helfen und Hilfe bekommen von deinen Nachbarn wissen musst.
           </p>
         </div>
 

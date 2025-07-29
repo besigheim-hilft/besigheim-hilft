@@ -21,15 +21,15 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          Your Neighborhood's
+          Besigheims
           <span className="block bg-gradient-to-r from-white via-accent-glow to-secondary-glow bg-clip-text text-transparent">
-            Helping Hands
+            Helfende Hände
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Connect with your neighbors to give and receive help. From borrowing tools to walking dogs, 
-          our community makes everyday life easier and more connected.
+          Vernetze dich mit deinen Nachbarn, um Hilfe zu geben und zu erhalten. Von der Werkzeugausleihe bis zum Gassi gehen - 
+          unsere Gemeinschaft macht den Alltag einfacher und verbindlicher.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -39,7 +39,7 @@ const Hero = () => {
             className="text-lg px-8 py-6 h-auto min-w-48"
           >
             <HeartHandshake className="w-6 h-6 mr-2" />
-            Ask for Help
+            Um Hilfe bitten
           </Button>
           
           <Button 
@@ -48,24 +48,11 @@ const Hero = () => {
             className="text-lg px-8 py-6 h-auto min-w-48"
           >
             <Users className="w-6 h-6 mr-2" />
-            Offer Help
+            Hilfe anbieten
           </Button>
         </div>
         
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-white/80">
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-            <div className="text-3xl font-bold text-white">2,500+</div>
-            <div>Neighbors Connected</div>
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-            <div className="text-3xl font-bold text-white">5,000+</div>
-            <div>Successful Helps</div>
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-            <div className="text-3xl font-bold text-white">50+</div>
-            <div>Neighborhoods</div>
-          </div>
-        </div>
+   
       </div>
     </div>
   );

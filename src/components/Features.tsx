@@ -15,38 +15,38 @@ const Features = () => {
   const features = [
     {
       icon: <Wrench className="w-8 h-8" />,
-      title: "Tools & Equipment",
-      description: "Borrow or lend tools, equipment, and household items with trusted neighbors.",
+      title: "Werkzeuge & Ausrüstung",
+      description: "Leihe oder verleihe Werkzeuge, Geräte und Haushaltsgegenstände mit vertrauensvollen Nachbarn.",
       gradient: "bg-gradient-primary"
     },
     {
       icon: <Dog className="w-8 h-8" />,
-      title: "Pet Care",
-      description: "Find reliable pet sitting, dog walking, and veterinary recommendations nearby.",
+      title: "Haustierpflege",
+      description: "Finde zuverlässiges Haustiersitting, Gassi-Service und Tierarztempfehlungen in der Nähe.",
       gradient: "bg-gradient-secondary"
     },
     {
       icon: <Car className="w-8 h-8" />,
-      title: "Transportation",
-      description: "Share rides, borrow vehicles, or get help with car troubles from neighbors.",
+      title: "Transport",
+      description: "Teile Fahrten, leihe Fahrzeuge oder bekomme Hilfe bei Autopannen von Nachbarn.",
       gradient: "bg-gradient-accent"
     },
     {
       icon: <Utensils className="w-8 h-8" />,
-      title: "Food & Cooking",
-      description: "Share meals, exchange recipes, or get help with grocery shopping.",
+      title: "Essen & Kochen",
+      description: "Teile Mahlzeiten, tausche Rezepte oder bekomme Hilfe beim Einkaufen.",
       gradient: "bg-gradient-primary"
     },
     {
       icon: <Baby className="w-8 h-8" />,
-      title: "Childcare",
-      description: "Find trusted babysitters and form parent support groups in your area.",
+      title: "Kinderbetreuung",
+      description: "Finde vertrauensvolle Babysitter und bilde Eltern-Unterstützungsgruppen in deiner Gegend.",
       gradient: "bg-gradient-secondary"
     },
     {
       icon: <Lightbulb className="w-8 h-8" />,
-      title: "Home Repairs",
-      description: "Get recommendations for contractors or help with small home maintenance tasks.",
+      title: "Hausreparaturen",
+      description: "Bekomme Empfehlungen für Handwerker oder Hilfe bei kleinen Wartungsarbeiten im Haushalt.",
       gradient: "bg-gradient-accent"
     }
   ];
@@ -54,18 +54,18 @@ const Features = () => {
   const benefits = [
     {
       icon: <Clock className="w-12 h-12" />,
-      title: "Save Time",
-      description: "Get help quickly from neighbors who are just around the corner."
+      title: "Zeit sparen",
+      description: "Bekomme schnell Hilfe von Nachbarn, die gleich um die Ecke wohnen."
     },
     {
       icon: <Shield className="w-12 h-12" />,
-      title: "Stay Safe",
-      description: "All members are verified and reviewed by the community."
+      title: "Sicher bleiben",
+      description: "Alle Mitglieder sind verifiziert und werden von der Gemeinschaft bewertet."
     },
     {
       icon: <Heart className="w-12 h-12" />,
-      title: "Build Community",
-      description: "Strengthen bonds with neighbors and create lasting friendships."
+      title: "Gemeinschaft aufbauen",
+      description: "Stärke die Bindungen zu deinen Nachbarn und knüpfe dauerhafte Freundschaften."
     }
   ];
 
@@ -75,11 +75,11 @@ const Features = () => {
         {/* Features Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
-            How We Help Each Other
+            Wie wir uns gegenseitig helfen
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From everyday favors to emergency assistance, our platform connects neighbors 
-            for countless ways to help and support each other.
+            Von alltäglichen Gefälligkeiten bis hin zur Nothilfe - unsere Plattform verbindet Nachbarn 
+            auf unzählige Weise, um sich gegenseitig zu helfen und zu unterstützen.
           </p>
         </div>
 
@@ -104,7 +104,7 @@ const Features = () => {
         {/* Benefits Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
-            Why Choose Our Platform?
+            Warum unsere Plattform wählen?
           </h2>
         </div>
 

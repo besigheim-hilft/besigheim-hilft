@@ -3,30 +3,30 @@ import { UserCheck, MessageSquare, HandHeart, Star } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
-    {
-      icon: <UserCheck className="w-12 h-12" />,
-      title: "Join Your Neighborhood",
-      description: "Sign up and verify your address to connect with neighbors in your area. Create a profile that helps others get to know you.",
-      gradient: "bg-gradient-primary"
-    },
+    // {
+    //   icon: <UserCheck className="w-12 h-12" />,
+    //   title: "Tritt deiner Nachbarschaft bei",
+    //   description: "Melde dich an und verifiziere deine Adresse, um dich mit Nachbarn in deiner Gegend zu vernetzen. Erstelle ein Profil, das anderen hilft, dich kennenzulernen.",
+    //   gradient: "bg-gradient-primary"
+    // },
     {
       icon: <MessageSquare className="w-12 h-12" />,
-      title: "Ask or Offer Help",
-      description: "Post a request for help or browse what neighbors need. From borrowing tools to pet sitting, start with small favors to build trust.",
+      title: "Bitte um Hilfe oder biete sie an",
+      description: "Stelle eine Bitte um Hilfe ein oder schaue, was Nachbarn brauchen. Von der Werkzeugausleihe bis zum Haustiersitting - beginne mit kleinen Gefälligkeiten, um Vertrauen aufzubauen.",
       gradient: "bg-gradient-secondary"
     },
     {
       icon: <HandHeart className="w-12 h-12" />,
-      title: "Connect & Help",
-      description: "Coordinate through our secure messaging system. Meet safely, complete the favor, and strengthen your community connections.",
+      title: "Wir vernetzen dich",
+      description: "Wir setzen uns mit dir in Verbindung und vermitteln zwischen Helfern und Hiflesuchenden.",
       gradient: "bg-gradient-accent"
     },
-    {
-      icon: <Star className="w-12 h-12" />,
-      title: "Rate & Review",
-      description: "Leave reviews to help build trust in the community. Positive interactions lead to lasting neighborly relationships.",
-      gradient: "bg-gradient-primary"
-    }
+    // {
+    //   icon: <Star className="w-12 h-12" />,
+    //   title: "Bewerte & rezensiere",
+    //   description: "Hinterlasse Bewertungen, um das Vertrauen in der Gemeinschaft zu stärken. Positive Interaktionen führen zu dauerhaften nachbarschaftlichen Beziehungen.",
+    //   gradient: "bg-gradient-primary"
+    // }
   ];
 
   return (
@@ -34,20 +34,20 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
-            How It Works
+            So funktioniert's
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Getting started is simple. Join thousands of neighbors already helping each other every day.
+            Der Einstieg ist einfach. Schließe dich tausenden von Nachbarn an, die sich bereits täglich gegenseitig helfen.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-8 mb-16">
           {steps.map((step, index) => (
             <div key={index} className="text-center group relative">
               {/* Connection line for desktop */}
-              {index < steps.length - 1 && (
+              {/* {index < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-16 left-full w-full h-0.5 bg-gradient-to-r from-primary/50 to-secondary/50 transform translate-x-4 -translate-y-1/2 z-0"></div>
-              )}
+              )} */}
               
               <div className="relative z-10">
                 <div className="flex justify-center mb-6">
@@ -75,17 +75,17 @@ const HowItWorks = () => {
         <div className="text-center">
           <div className="bg-gradient-hero rounded-3xl p-12 text-white">
             <h3 className="text-3xl font-bold mb-4">
-              Ready to Start Helping?
+              Bereit zu helfen?
             </h3>
             <p className="text-xl mb-8 text-white/90">
-              Join your neighborhood community today and discover the joy of helping others.
+              Tritt noch heute deiner Nachbarschaftsgemeinschaft bei und entdecke die Freude am Helfen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
-                Ask for Help
+                Um Hilfe bitten
               </Button>
               <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
-                Offer Help
+                Hilfe anbieten
               </Button>
             </div>
           </div>
