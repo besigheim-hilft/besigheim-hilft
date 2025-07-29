@@ -74,7 +74,7 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Features Section */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent py-1">
             Wie wir uns gegenseitig helfen
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
