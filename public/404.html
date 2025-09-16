@@ -6,21 +6,28 @@
     <title>Besigheim Hilft - Helfende Hände in deiner Nachbarschaft</title>
     <script>
       // GitHub Pages SPA redirect
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = sessionStorage.redirect || l.pathname + l.search + l.hash;
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded =
+            sessionStorage.redirect || l.pathname + l.search + l.hash;
           delete sessionStorage.redirect;
-          l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            decoded);
+          l.replace(
+            l.protocol +
+              "//" +
+              l.hostname +
+              (l.port ? ":" + l.port : "") +
+              decoded
+          );
         }
-      }(location));
+      })(location);
     </script>
   </head>
   <body>
     <div id="root"></div>
     <script>
       // Store the intended path for client-side routing
-      sessionStorage.redirect = location.pathname.slice(0, -1) + location.search + location.hash;
+      sessionStorage.redirect =
+        location.pathname.slice(0, -1) + location.search + location.hash;
       location.replace(location.origin);
     </script>
   </body>
