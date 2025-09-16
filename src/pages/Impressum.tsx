@@ -15,10 +15,28 @@ const Impressum = () => {
           <div className="space-y-8 text-foreground">
             <section>
               <h2 className="text-2xl font-semibold mb-4">Angaben gemäß § 5 TMG</h2>
-              <div className="space-y-2">
-                <p><strong>Verantwortlich für den Inhalt:</strong></p>
-                <p>Ehrenamtliche Initiative "Besigheim Hilft"</p>
-                <p>E-Mail: info@besigheim-hilft.de</p>
+              <div className="mb-6">
+                <h3 className="text-xl font-medium mb-3">Vertretungsberechtigte Person</h3>
+                <address className="not-italic">
+                  <div className="font-semibold">Tanja Bayer</div>
+                  <div>Meisenweg 14</div>
+                  <div>74354 Besigheim</div>
+                  <div>Deutschland</div>
+                </address>
+              </div>
+
+              <div className="mb-6">
+                <h3 className="text-xl font-medium mb-3">Kontakt</h3>
+                <p>
+                  E-Mail: <a href="mailto:info@besigheim-hilft.de" className="text-primary hover:underline">info@besigheim-hilft.de</a>
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-medium mb-3">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
+                <p>
+                  Tanja Bayer, Anschrift wie oben
+                </p>
               </div>
             </section>
 
@@ -69,10 +87,11 @@ const Impressum = () => {
               </p>
             </section>
           </div>
+          </div>
         </div>
       </div>
       <Footer />
-    </div></div>
+    </div>
   );
 };
 
