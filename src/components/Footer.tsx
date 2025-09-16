@@ -65,10 +65,10 @@ const Footer = () => {
               <p>
                 <strong className="text-foreground">E-Mail:</strong><br />
                 <a 
-                  href="mailto:info@besigheim-hilft.de" 
+                  href="mailto:besigheim-hilft@web.de" 
                   className="hover:text-primary transition-colors"
                 >
-                  info@besigheim-hilft.de
+                  besigheim-hilft@web.de
                 </a>
               </p>
            
