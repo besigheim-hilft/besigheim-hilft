@@ -4,31 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Besigheim Hilft - Helfende Hände in deiner Nachbarschaft</title>
-    <meta
-      name="description"
-      content="Vernetze dich mit Nachbarn, um Hilfe zu geben und zu erhalten. Baue stärkere Gemeinschaften durch alltägliche Unterstützung auf."
-    />
-    <meta name="author" content="Besigheim Hilft" />
-
-    <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png" />
-
-    <meta
-      property="og:title"
-      content="Besigheim Hilft - Helfende Hände in deiner Nachbarschaft"
-    />
-    <meta
-      property="og:description"
-      content="Vernetze dich mit Nachbarn, um Hilfe zu geben und zu erhalten. Baue stärkere Gemeinschaften durch alltägliche Unterstützung auf."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/opengraph.jpeg" />
+    <script>
+      // GitHub Pages SPA redirect
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = sessionStorage.redirect || l.pathname + l.search + l.hash;
+          delete sessionStorage.redirect;
+          l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            decoded);
+        }
+      }(location));
+    </script>
   </head>
-
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Store the intended path for client-side routing
+      sessionStorage.redirect = location.pathname.slice(0, -1) + location.search + location.hash;
+      location.replace(location.origin);
+    </script>
   </body>
 </html>
