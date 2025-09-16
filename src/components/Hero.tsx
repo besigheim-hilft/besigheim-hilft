@@ -49,14 +49,20 @@ const Hero = () => {
             </Button>
           </a>
           
-          <Button 
-            variant="hero-secondary" 
-            size="lg" 
-            className="text-lg px-8 py-6 h-auto min-w-48"
+          <a 
+            href="https://forms.gle/SbspFAWt9ruB74pK8" 
+            target="_blank" 
+            rel="noopener noreferrer"
           >
-            <Users className="w-6 h-6 mr-2" />
-            Hilfe anbieten
-          </Button>
+            <Button 
+              variant="hero-secondary" 
+              size="lg" 
+              className="text-lg px-8 py-6 h-auto min-w-48"
+            >
+              <Users className="w-6 h-6 mr-2" />
+              Hilfe anbieten
+            </Button>
+          </a>
         </div>
         
    

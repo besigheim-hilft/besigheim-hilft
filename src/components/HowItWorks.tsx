@@ -91,9 +91,15 @@ const HowItWorks = () => {
                   Um Hilfe bitten
                 </Button>
               </a>
-              <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
-                Hilfe anbieten
-              </Button>
+              <a 
+                href="https://forms.gle/SbspFAWt9ruB74pK8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
+                  Hilfe anbieten
+                </Button>
+              </a>
             </div>
           </div>
         </div>
