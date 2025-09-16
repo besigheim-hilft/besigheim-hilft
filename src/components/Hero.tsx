@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { HeartHandshake, Users, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -33,14 +34,16 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <Button 
-            variant="hero" 
-            size="lg" 
-            className="text-lg px-8 py-6 h-auto min-w-48"
-          >
-            <HeartHandshake className="w-6 h-6 mr-2" />
-            Um Hilfe bitten
-          </Button>
+          <Link to="/um-hilfe-bitten">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="text-lg px-8 py-6 h-auto min-w-48"
+            >
+              <HeartHandshake className="w-6 h-6 mr-2" />
+              Um Hilfe bitten
+            </Button>
+          </Link>
           
           <Button 
             variant="hero-secondary" 

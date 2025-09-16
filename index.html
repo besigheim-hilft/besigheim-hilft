@@ -55,11 +55,83 @@
         }
       })(window.location);
     </script>
+    <link
+      rel="stylesheet"
+      id="silktide-consent-manager-css"
+      href="cookie-banner/silktide-consent-manager.css"
+    />
+    <script src="cookie-banner/silktide-consent-manager.js"></script>
+    <script>
+      silktideCookieBannerManager.updateCookieBannerConfig({
+        background: {
+          showBackground: true,
+        },
+        cookieIcon: {
+          position: "bottomLeft",
+        },
+        cookieTypes: [
+          {
+            id: "notwendige_cookies",
+            name: "Notwendige Cookies",
+            description:
+              '<p>\n<p data-start="826" data-end="1000"></p></p><p data-start="654" data-end="824">Diese Cookies sind erforderlich, damit unsere Website funktioniert (z. B. um Formulare abzusenden oder Ihre Cookie-Einstellungen zu speichern).</p>',
+            required: true,
+            onAccept: function () {
+              console.log("Add logic for the required Notwendige Cookies here");
+            },
+          },
+        ],
+        text: {
+          banner: {
+            description:
+              '<p><span style="color: rgb(0, 0, 0);">„Wir verwenden Cookies, um unsere Website benutzerfreundlich zu gestalten. Einige sind notwendig, andere helfen uns, die Seite zu verbessern. Sie können selbst entscheiden, welche Cookies Sie erlauben.“&nbsp;</span><a href="https://www.besigheim-hilft.de/datenschutz" target="_blank">Datenschutz</a></p>',
+            acceptAllButtonText: "Alle akzeptieren",
+            acceptAllButtonAccessibleLabel: "Accept all cookies",
+            rejectNonEssentialButtonText: "Nicht notwendige ablehnen",
+            rejectNonEssentialButtonAccessibleLabel: "Reject non-essential",
+            preferencesButtonText: "Einstellungen",
+            preferencesButtonAccessibleLabel: "Toggle preferences",
+          },
+          preferences: {
+            title: "Customize your cookie preferences",
+            description:
+              "<p>We respect your right to privacy. You can choose not to allow some types of cookies. Your cookie preferences will apply across our website.</p>",
+            creditLinkText: "Get this banner for free",
+            creditLinkAccessibleLabel: "Get this banner for free",
+          },
+        },
+      });
+    </script>
     <!-- End Single Page Apps for GitHub Pages -->
+    <!-- GetResponse Analytics -->
+    <script type="text/javascript">
+      (function (m, o, n, t, e, r, _) {
+        m["__GetResponseAnalyticsObject"] = e;
+        m[e] =
+          m[e] ||
+          function () {
+            (m[e].q = m[e].q || []).push(arguments);
+          };
+        r = o.createElement(n);
+        _ = o.getElementsByTagName(n)[0];
+        r.async = 1;
+        r.src = t;
+        r.setAttribute("crossorigin", "use-credentials");
+        _.parentNode.insertBefore(r, _);
+      })(
+        window,
+        document,
+        "script",
+        "https://an.gr-wcon.com/script/8a482cda-adba-47ac-845e-14d80677d5c2/ga.js",
+        "GrTracking"
+      );
+    </script>
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- End GetResponse Analytics -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

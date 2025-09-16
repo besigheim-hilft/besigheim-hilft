@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { UserCheck, MessageSquare, HandHeart, Star } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HowItWorks = () => {
   const steps = [
@@ -81,9 +82,11 @@ const HowItWorks = () => {
               Tritt noch heute deiner Nachbarschaftsgemeinschaft bei und entdecke die Freude am Helfen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
-                Um Hilfe bitten
-              </Button>
+              <Link to="/um-hilfe-bitten">
+                <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
+                  Um Hilfe bitten
+                </Button>
+              </Link>
               <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
                 Hilfe anbieten
               </Button>
