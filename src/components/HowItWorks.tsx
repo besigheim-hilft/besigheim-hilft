@@ -82,11 +82,15 @@ const HowItWorks = () => {
               Tritt noch heute deiner Nachbarschaftsgemeinschaft bei und entdecke die Freude am Helfen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/um-hilfe-bitten">
+              <a 
+                href="https://forms.gle/S86EaxT5rFxKb1rd6" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
                   Um Hilfe bitten
                 </Button>
-              </Link>
+              </a>
               <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
                 Hilfe anbieten
               </Button>

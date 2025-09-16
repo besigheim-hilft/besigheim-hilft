@@ -101,66 +101,51 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mb-4">5. Externe Dienste und Datenverarbeitung</h2>
-              <h3 className="text-xl font-medium mb-3">GetResponse (E-Mail-Marketing und Formulare)</h3>
+              <h2 className="text-2xl font-semibold mb-4">5. Externe Dienste und Weiterleitungen</h2>
+              <h3 className="text-xl font-medium mb-3">Google Forms</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Diese Website nutzt GetResponse für die Verwaltung von Kontaktformularen. 
-                GetResponse ist ein Dienst der GetResponse S.A., Arkonska 6/A3, 80-387 Gdansk, Polen.
+                Diese Website enthält Links zu Google Forms, einem Dienst der Google LLC (USA) bzw. Google Ireland Limited (EU). 
+                Wenn Sie auf "Um Hilfe bitten" klicken, werden Sie zu einem externen Google Forms Formular weitergeleitet.
               </p>
               
               <p className="text-muted-foreground leading-relaxed mb-4">
-                <strong>Welche Daten werden verarbeitet?</strong>
+                <strong>Was passiert bei der Weiterleitung?</strong>
               </p>
               <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-4">
-                <li>E-Mail-Adresse und Name (soweit angegeben)</li>
-                <li>Informationen zu gewünschten Hilfeleistungen / angebotenen Hilfe</li>
-                <li>Zeitpunkt der Formularübermittlung</li>
-                <li>IP-Adresse und technische Informationen des Browsers</li>
+                <li>Sie verlassen unsere Website und werden zu Google Forms weitergeleitet</li>
+                <li>Ihre Daten werden dann direkt an Google übertragen</li>
+                <li>Es gelten die Datenschutzbestimmungen von Google</li>
+                <li>Wir haben keinen Einfluss auf die Datenverarbeitung durch Google</li>
               </ul>
               
               <p className="text-muted-foreground leading-relaxed mb-4">
-                <strong>Zweck der Datenverarbeitung:</strong>
-              </p>
-              <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-4">
-                <li>Bearbeitung von Anfragen zur Nachbarschaftshilfe</li>
-                <li>Vermittlung zwischen Hilfesuchenden und Helfern</li>
-                <li>Versendung von Informationen bezüglich der angefragten Hilfe</li>
-              </ul>
-              
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                <strong>Rechtsgrundlage:</strong> Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung gemäß 
-                Art. 6 Abs. 1 lit. a DSGVO. Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft 
-                widerrufen.
-              </p>
-              
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                <strong>Speicherdauer:</strong> Ihre Daten werden so lange gespeichert, wie es für die Bearbeitung 
-                Ihrer Anfrage erforderlich ist, längstens jedoch für die Dauer von 2 Jahren nach der letzten 
-                Kontaktaufnahme.
+                <strong>Datenverarbeitung durch Google:</strong> Google kann bei der Nutzung von Google Forms 
+                verschiedene Daten verarbeiten, einschließlich IP-Adressen, Browser-Informationen und die 
+                von Ihnen in das Formular eingegebenen Daten.
               </p>
               
               <div className="bg-background/50 p-4 rounded-lg mb-4">
                 <p className="text-sm text-muted-foreground">
-                  <strong>Datenschutz bei GetResponse:</strong> GetResponse verarbeitet Ihre Daten gemäß der 
-                  EU-Datenschutz-Grundverordnung (DSGVO). Weitere Informationen finden Sie in der 
+                  <strong>Datenschutz bei Google:</strong> Weitere Informationen zur Datenverarbeitung durch Google 
+                  finden Sie in der 
                   <a 
-                    href="https://www.getresponse.com/legal/privacy" 
+                    href="https://policies.google.com/privacy" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-primary hover:underline ml-1"
                   >
-                    Datenschutzerklärung von GetResponse
+                    Datenschutzerklärung von Google
                   </a>.
                 </p>
               </div>
               
-              <div className="bg-amber-100 dark:bg-amber-900/20 p-4 rounded-lg border border-amber-200 dark:border-amber-800">
-                <p className="text-amber-800 dark:text-amber-200 font-medium mb-2">
-                  <strong>Widerruf Ihrer Einwilligung:</strong>
+              <div className="bg-blue-100 dark:bg-blue-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-800">
+                <p className="text-blue-800 dark:text-blue-200 font-medium mb-2">
+                  <strong>Hinweis:</strong>
                 </p>
-                <p className="text-amber-700 dark:text-amber-300 text-sm">
-                  Sie können Ihre Einwilligung zur Datenverarbeitung durch GetResponse jederzeit widerrufen, 
-                  indem Sie uns eine E-Mail an info@besigheim-hilft.de.
+                <p className="text-blue-700 dark:text-blue-300 text-sm">
+                  Die Nutzung von Google Forms erfolgt freiwillig durch Klick auf den entsprechenden Button. 
+                  Sie können die Weiterleitung jederzeit abbrechen, bevor Sie Daten in das Google Formular eingeben.
                 </p>
               </div>
             </section>

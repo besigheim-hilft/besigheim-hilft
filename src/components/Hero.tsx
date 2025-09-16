@@ -34,7 +34,11 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <Link to="/um-hilfe-bitten">
+          <a 
+            href="https://forms.gle/S86EaxT5rFxKb1rd6" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
             <Button 
               variant="hero" 
               size="lg" 
@@ -43,7 +47,7 @@ const Hero = () => {
               <HeartHandshake className="w-6 h-6 mr-2" />
               Um Hilfe bitten
             </Button>
-          </Link>
+          </a>
           
           <Button 
             variant="hero-secondary" 

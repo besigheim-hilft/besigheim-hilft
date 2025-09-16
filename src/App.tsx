@@ -8,7 +8,6 @@ import NotFound from "./pages/NotFound";
 import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
 import Nutzungsbedingungen from "./pages/Nutzungsbedingungen";
-import UmHilfeBitten from "./pages/UmHilfeBitten";
 
 const queryClient = new QueryClient();
 
@@ -23,7 +22,6 @@ const App = () => (
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/datenschutz" element={<Datenschutz />} />
           <Route path="/nutzungsbedingungen" element={<Nutzungsbedingungen />} />
-          <Route path="/um-hilfe-bitten" element={<UmHilfeBitten />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
