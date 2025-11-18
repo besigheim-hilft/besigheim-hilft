@@ -8,7 +8,7 @@ const Datenschutz = () => {
       <div className="min-h-screen bg-background py-20">
       <div className="max-w-4xl mx-auto px-6">
         <div className="bg-card rounded-3xl p-8 shadow-glow mb-8">
-          <h1 className="text-4xl font-bold mb-8 bg-gradient-hero bg-clip-text text-transparent">
+          <h1 className="text-4xl font-bold mb-8 text-primary">
             Datenschutzerklärung
           </h1>
           
@@ -139,11 +139,11 @@ const Datenschutz = () => {
                 </p>
               </div>
               
-              <div className="bg-blue-100 dark:bg-blue-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-800">
-                <p className="text-blue-800 dark:text-blue-200 font-medium mb-2">
+              <div className="bg-secondary/20 dark:bg-secondary/10 p-4 rounded-lg border border-secondary/40 dark:border-secondary/20">
+                <p className="text-primary dark:text-primary font-medium mb-2">
                   <strong>Hinweis:</strong>
                 </p>
-                <p className="text-blue-700 dark:text-blue-300 text-sm">
+                <p className="text-primary/80 dark:text-primary/70 text-sm">
                   Die Nutzung von Google Forms erfolgt freiwillig durch Klick auf den entsprechenden Button. 
                   Sie können die Weiterleitung jederzeit abbrechen, bevor Sie Daten in das Google Formular eingeben.
                 </p>

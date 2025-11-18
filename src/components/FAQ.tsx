@@ -8,44 +8,44 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "Wie fange ich auf der Plattform an?",
-      answer: "Klicke einfach auf 'Um Hilfe bitten' oder 'Hilfe anbieten', um dein Konto zu erstellen. Du verifizierst deine Adresse, um dich mit deiner direkten Nachbarschaft zu vernetzen, dann kannst du sofort anfangen zu helfen oder um Unterstützung zu bitten."
+      question: "Was ist Besigheim Hilft?",
+      answer: "Besigheim Hilft ist eine ehrenamtliche Initiative für unbürokratische Nachbarschaftshilfe in Besigheim. Wir bringen Menschen zusammen, die Unterstützung im Alltag brauchen, mit Freiwilligen, die gerne helfen möchten."
     },
     {
-      question: "Ist es sicher, Fremden in meiner Nachbarschaft zu helfen?",
-      answer: "Sicherheit ist unsere oberste Priorität. Alle Nutzer verifizieren ihre Adresse und Identität. Wir haben ein Gemeinschaftsbewertungssystem, Hintergrundprüfungen für bestimmte Services und Richtlinien für sichere Treffen. Trefft euch möglichst an öffentlichen Orten und vertraut auf euer Bauchgefühl."
+      question: "Welche Art von Hilfe wird angeboten?",
+      answer: "Wir helfen bei alltäglichen Dingen wie Einkäufen, Begleitung bei Spaziergängen, Fahrten zu Arztterminen und kleinen praktischen Hilfen im Alltag. Wichtig: Wir übernehmen keine pflegerischen oder medizinischen Tätigkeiten."
     },
     {
-      question: "Welche Art von Hilfe kann ich anfragen oder anbieten?",
-      answer: "Fast alles! Häufige Anfragen umfassen Werkzeugausleihe, Haustiersitting, Fahrgemeinschaften, Hausreparaturen, Kinderbetreuung, Einkaufen, gemeinsame Mahlzeiten und Nothilfe. Wenn es legal und nachbarschaftlich ist, ist es auf unserer Plattform willkommen."
+      question: "Ist Besigheim Hilft ein Verein?",
+      answer: "Nein, wir sind kein eingetragener Verein. Alle Leistungen finden auf freiwilliger und privater Basis statt. Das bedeutet für dich: Du bist nicht verpflichtet, Aufträge anzunehmen, und solltest dich zuverlässig und gewissenhaft darum kümmern."
     },
     {
-      question: "Muss ich für Hilfe bezahlen oder für das Helfen Geld verlangen?",
-      answer: "Nein! Alle Hilfe auf unserer Plattform ist kostenlos und ehrenamtlich. Wir sind eine rein gemeinnützige Initiative und niemand nimmt Geld für Nachbarschaftshilfe an. Wenn jemand seine Dankbarkeit ausdrücken möchte, ermutigen wir dazu, eine Spende an eine gemeinnützige Organisation zu machen - so haben wir doppelt etwas Gutes getan!"
+      question: "Gibt es eine Versicherung?",
+      answer: "Es besteht keine Versicherung über eine Organisation. Du trägst selbst das Risiko und die Verantwortung. Prüfe daher am besten, ob deine Haftpflichtversicherung den Zweck abdeckt. Alternativen wie Haftpflichtversicherung über Organisationen werden nicht bereitgestellt."
     },
     {
-      question: "Woher weiß ich, ob jemand vertrauenswürdig ist?",
-      answer: "Überprüfe ihr Profil auf Verifizierungsabzeichen, lies Bewertungen von anderen Nachbarn und schaue, wie lange sie schon in der Gemeinschaft aktiv sind. Beginne mit kleinen Gefälligkeiten, um Vertrauen aufzubauen, und kommuniziere anfangs immer über unsere Plattform."
+      question: "Ist die Hilfe kostenlos?",
+      answer: "Ja! Die Nachbarschaftshilfe erfolgt ausschließlich ehrenamtlich und ist daher immer kostenlos. Als Helfer darfst du kein Geld annehmen (außer einem Beitrag zum verfahrenen Sprit), damit das Projekt nicht in ein falsches Licht gerät."
     },
     {
-      question: "Was ist, wenn ich gerade nicht helfen kann?",
-      answer: "Kein Problem! Du kannst jede Anfrage höflich ablehnen, und es gibt keine Verpflichtung zu helfen. Viele Nachbarn bieten lieber Hilfe an, wenn sie Zeit haben, anstatt auf spezifische Anfragen zu antworten. Die Plattform funktioniert am besten, wenn jeder nach seinen Möglichkeiten teilnimmt."
+      question: "Ist Besigheim Hilft eine Alternative zu professionellen Diensten?",
+      answer: "Nein, ausdrücklich nicht! Wir sind keine Alternative oder Konkurrenz zu bestehenden Angeboten wie Diakonie, Pflegediensten oder anderen sozialen Einrichtungen. Wir ergänzen diese dort, wo unkomplizierte Nachbarschaftshilfe gefragt ist."
+    },
+    {
+      question: "Welche Art von Hilfe wird NICHT angeboten?",
+      answer: "Die Nachbarschaftshilfe ist nicht für alle Arten von Tätigkeiten gedacht. Pflegerische Aufgaben oder Geld verdienen gehören nicht dazu. Für solche Leistungen gibt es spezielle Dienste, die über die Pflegekasse abgerechnet werden können. Wenn du jemanden regelmäßig auf nicht-pflegerischer Weise unterstützen möchtest, ist das selbstverständlich dir überlassen."
     },
     {
       question: "Kann ich das für Notfälle nutzen?",
-      answer: "Bei lebensbedrohlichen Notfällen rufe immer zuerst den Notruf 112. Unsere Plattform ist großartig für dringende, aber nicht lebensbedrohliche Situationen wie einen Fahrdienst ins Krankenhaus, jemanden zu finden, der in einer Krise auf die Kinder aufpasst, oder Hilfe nach einem kleinen Unfall zu bekommen."
+      answer: "Bei Notfällen wähle immer den Notruf 112. Unsere Nachbarschaftshilfe ist für alltägliche Unterstützung gedacht, nicht für medizinische oder lebensbedrohliche Notfälle."
     },
     {
-      question: "Wie melde ich unangemessenes Verhalten?",
-      answer: "Jedes Profil und jede Interaktion hat einen Melden-Button. Wir nehmen alle Meldungen ernst und untersuchen sie umgehend. Unangemessenes Verhalten kann je nach Schwere zu Verwarnungen, vorübergehender Sperrung oder dauerhaftem Ausschluss von der Plattform führen."
+      question: "Wie funktioniert die Vermittlung?",
+      answer: "Wir möchten beiden Seiten helfen: Wir stellen Kontakt und Möglichkeiten zur Verfügung, um Menschen zu verbinden, die gerade Unterstützung brauchen – und leisten damit einen wichtigen Beitrag zum Miteinander in der Stadt."
     },
     {
-      question: "Werden meine persönlichen Daten privat gehalten?",
-      answer: "Ja, wir teilen nur die minimal notwendigen Informationen, damit sich Nachbarn gegenseitig helfen können. Deine genaue Adresse wird nie angezeigt - nur deine allgemeine Nachbarschaft. Du kontrollierst, welche persönlichen Details du in deinem Profil angibst."
-    },
-    {
-      question: "Kann ich Menschen außerhalb meiner direkten Nachbarschaft helfen?",
-      answer: "Während sich die Plattform auf direkte Nachbarn für Bequemlichkeit und Sicherheit konzentriert, kannst du deinen Hilfe-Radius in den Einstellungen erweitern. Viele Nutzer helfen in einem Umkreis von wenigen Häuserblocks um ihr Zuhause, und manche treten mehreren Nachbarschaftsgruppen bei."
+      question: "Was ist euer Ziel?",
+      answer: "Wir möchten Menschen in unserer Stadt wieder enger zusammenbringen – hilfesuchende Bürgerinnen und Bürger mit Freiwilligen, die ihre Unterstützung anbieten möchten. Dabei legen wir großen Wert auf Transparenz und Zusammenarbeit."
     }
   ];
 
@@ -53,7 +53,7 @@ const FAQ = () => {
     <div className="py-20 bg-muted/30">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent py-1">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary py-1">
             Häufig gestellte Fragen
           </h2>
           <p className="text-xl text-muted-foreground">

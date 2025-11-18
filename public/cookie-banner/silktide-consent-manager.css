@@ -10,17 +10,17 @@
 -------------------------------- */
 /* Wrapper (Global) */
 #silktide-wrapper {
-              --focus: 0 0 0 2px #ffffff, 0 0 0 4px #000000, 0 0 0 6px #ffffff;
-              --boxShadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
-              --fontFamily: Helvetica Neue, Segoe UI, Arial, sans-serif;
-              --primaryColor: #007514;
-              --backgroundColor: #FFFFFF;
-              --textColor: #4B494B;
-              --backdropBackgroundColor: #00000033;
-              --backdropBackgroundBlur: 0px;
-              --cookieIconColor: #007514;
-              --cookieIconBackgroundColor: #FFFFFF;
-              position: fixed;
+  --focus: 0 0 0 2px #ffffff, 0 0 0 4px #000000, 0 0 0 6px #ffffff;
+  --boxShadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
+  --fontFamily: Helvetica Neue, Segoe UI, Arial, sans-serif;
+  --primaryColor: #1d5486;
+  --backgroundColor: #f8e7c1;
+  --textColor: #1d5486;
+  --backdropBackgroundColor: #00000033;
+  --backdropBackgroundBlur: 0px;
+  --cookieIconColor: #1d5486;
+  --cookieIconBackgroundColor: #f8e7c1;
+  position: fixed;
   bottom: 0;
   right: 0;
   width: 100%;
@@ -30,8 +30,8 @@
   border: 0px;
   display: flex;
   justify-content: center;
-  align-items: center
-            }
+  align-items: center;
+}
 
 /* Backdrop (Global) */
 #silktide-backdrop-global {
@@ -189,7 +189,7 @@
 
 #silktide-banner .preferences:after {
   display: block;
-  content: '>';
+  content: ">";
   text-decoration: none;
 }
 
@@ -219,7 +219,6 @@
   width: 48px;
   height: 48px;
 }
-
 
 #silktide-banner .actions {
   display: flex;
@@ -353,7 +352,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 24px;  
+  gap: 24px;
 }
 
 /* --------------------------------

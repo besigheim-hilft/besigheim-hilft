@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <div className="bg-gradient-primary w-10 h-10 rounded-full flex items-center justify-center">
+            <div className="bg-primary w-10 h-10 rounded-full flex items-center justify-center">
               <HeartHandshake className="w-6 h-6 text-white" />
             </div>
             <h1 className="text-xl font-bold text-foreground">Besigheim Hilft</h1>

@@ -4,68 +4,62 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-      {/* Animated background elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-secondary/20 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute bottom-1/3 right-1/4 w-48 h-48 bg-accent/20 rounded-full blur-xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 right-1/3 w-24 h-24 bg-primary/20 rounded-full blur-xl animate-pulse delay-500"></div>
-      </div>
-      
-      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
-        <div className="flex justify-center mb-8">
-          <div className="flex items-center space-x-4 bg-white/10 backdrop-blur-sm rounded-full p-4">
-            <HeartHandshake className="w-8 h-8 text-white" />
-            <Users className="w-8 h-8 text-white" />
-            <MapPin className="w-8 h-8 text-white" />
-          </div>
-        </div>
-        
+    <div className="relative min-h-screen flex flex-col justify-between bg-primary overflow-hidden">
+      {/* Content - positioned at top */}
+      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center pt-20 pb-8">
+
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Besigheims
-          <span className="block bg-gradient-to-r from-white via-accent-glow to-secondary-glow bg-clip-text text-transparent">
+          <span className="block text-secondary">
             Helfende Hände
           </span>
         </h1>
-        
+
         <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Vernetze dich mit deinen Nachbarn, um Hilfe zu geben und zu erhalten. Von der Werkzeugausleihe bis zum Gassi gehen - 
-          unsere Gemeinschaft macht den Alltag einfacher und verbindlicher.
+          Unbürokratische Nachbarschaftshilfe in Besigheim. Menschen aus unserer Stadt unterstützen einander im Alltag – 
+          gegenseitig, im kleinen Rahmen und mit Herz.
         </p>
-        
+
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <a 
-            href="https://forms.gle/S86EaxT5rFxKb1rd6" 
-            target="_blank" 
+          <a
+            href="https://forms.gle/S86EaxT5rFxKb1rd6"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            <Button 
-              variant="hero" 
-              size="lg" 
-              className="text-lg px-8 py-6 h-auto min-w-48"
+            <Button
+            variant="white"
+              size="lg"
+              className="text-lg px-8 py-6 h-auto min-w-48 border-2 border-white shadow-lg"
             >
               <HeartHandshake className="w-6 h-6 mr-2" />
               Um Hilfe bitten
             </Button>
           </a>
-          
-          <a 
-            href="https://forms.gle/SbspFAWt9ruB74pK8" 
-            target="_blank" 
+
+          <a
+            href="https://forms.gle/SbspFAWt9ruB74pK8"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            <Button 
-              variant="hero-secondary" 
-              size="lg" 
-              className="text-lg px-8 py-6 h-auto min-w-48"
+            <Button
+              variant="white"
+              size="lg"
+              className="text-lg px-8 py-6 h-auto min-w-48 border-2 border-white shadow-lg"
             >
               <Users className="w-6 h-6 mr-2" />
               Hilfe anbieten
             </Button>
           </a>
         </div>
-        
-   
+      </div>
+      
+      {/* Background Image - positioned at bottom */}
+      <div className="relative z-0 w-full mt-auto">
+        <img 
+          src="/helping-hands.png" 
+          alt="Helping Hands" 
+          className="w-full h-auto object-cover object-bottom"
+        />
       </div>
     </div>
   );

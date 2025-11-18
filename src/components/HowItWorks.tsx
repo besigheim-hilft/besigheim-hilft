@@ -4,41 +4,29 @@ import { Link } from "react-router-dom";
 
 const HowItWorks = () => {
   const steps = [
-    // {
-    //   icon: <UserCheck className="w-12 h-12" />,
-    //   title: "Tritt deiner Nachbarschaft bei",
-    //   description: "Melde dich an und verifiziere deine Adresse, um dich mit Nachbarn in deiner Gegend zu vernetzen. Erstelle ein Profil, das anderen hilft, dich kennenzulernen.",
-    //   gradient: "bg-gradient-primary"
-    // },
     {
       icon: <MessageSquare className="w-12 h-12" />,
       title: "Bitte um Hilfe oder biete sie an",
-      description: "Stelle eine Bitte um Hilfe ein oder schaue, was Nachbarn brauchen. Von der Werkzeugausleihe bis zum Haustiersitting - beginne mit kleinen Gefälligkeiten, um Vertrauen aufzubauen.",
-      gradient: "bg-gradient-secondary"
+      description: "Fülle einfach das Formular aus und teile uns mit, wobei du Unterstützung brauchst oder wie du helfen möchtest.",
+      bgColor: "bg-secondary"
     },
     {
       icon: <HandHeart className="w-12 h-12" />,
       title: "Wir vernetzen dich",
-      description: "Wir setzen uns mit dir in Verbindung und vermitteln zwischen Helfern und Hiflesuchenden.",
-      gradient: "bg-gradient-accent"
+      description: "Wir setzen uns mit dir in Verbindung und bringen Hilfesuchende und Freiwillige aus Besigheim zusammen.",
+      bgColor: "bg-accent"
     },
-    // {
-    //   icon: <Star className="w-12 h-12" />,
-    //   title: "Bewerte & rezensiere",
-    //   description: "Hinterlasse Bewertungen, um das Vertrauen in der Gemeinschaft zu stärken. Positive Interaktionen führen zu dauerhaften nachbarschaftlichen Beziehungen.",
-    //   gradient: "bg-gradient-primary"
-    // }
   ];
 
   return (
     <div className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
             So funktioniert's
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Der Einstieg ist einfach. Schließe dich tausenden von Nachbarn an, die sich bereits täglich gegenseitig helfen.
+            Unkompliziert und direkt – so verbinden wir Hilfesuchende mit Freiwilligen aus Besigheim.
           </p>
         </div>
 
@@ -52,7 +40,7 @@ const HowItWorks = () => {
               
               <div className="relative z-10">
                 <div className="flex justify-center mb-6">
-                  <div className={`${step.gradient} w-20 h-20 rounded-full flex items-center justify-center text-white group-hover:scale-110 group-hover:shadow-glow transition-all duration-300`}>
+                  <div className={`${step.bgColor} w-20 h-20 rounded-full flex items-center justify-center text-white group-hover:scale-110 group-hover:shadow-lg transition-all duration-300`}>
                     {step.icon}
                   </div>
                 </div>
@@ -74,23 +62,15 @@ const HowItWorks = () => {
         </div>
 
         <div className="text-center">
-          <div className="bg-gradient-hero rounded-3xl p-12 text-white">
+          <div className="bg-primary rounded-3xl p-12 text-white">
             <h3 className="text-3xl font-bold mb-4">
-              Bereit zu helfen?
+              Unser Ziel
             </h3>
             <p className="text-xl mb-8 text-white/90">
-              Tritt noch heute deiner Nachbarschaftsgemeinschaft bei und entdecke die Freude am Helfen.
+              Wir möchten Menschen in unserer Stadt wieder enger zusammenbringen – hilfesuchende Bürgerinnen und Bürger mit Freiwilligen, die ihre Unterstützung anbieten möchten.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="https://forms.gle/S86EaxT5rFxKb1rd6" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <Button variant="outline" size="lg" className="bg-white text-primary hover:bg-white/90 border-white">
-                  Um Hilfe bitten
-                </Button>
-              </a>
+
               <a 
                 href="https://forms.gle/SbspFAWt9ruB74pK8" 
                 target="_blank" 
