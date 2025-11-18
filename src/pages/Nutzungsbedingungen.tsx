@@ -63,7 +63,7 @@ const Nutzungsbedingungen = () => {
                   <li>Treffen Sie sich bei ersten Kontakten an öffentlichen Orten</li>
                   <li>Vertrauen Sie auf Ihr Bauchgefühl</li>
                   <li>Geben Sie keine sensiblen persönlichen Daten preis</li>
-                  <li>Bei Notfällen wählen Sie immer zuerst den Notruf 112</li>
+                  <li>Bei Notfällen wählen Sie immer den Notruf 112</li>
                 </ul>
               </div>
               

@@ -98,7 +98,7 @@ const Footer = () => {
         {/* Hinweis für Notfälle */}
         <div className="mt-8 bg-destructive/10 border border-destructive/30 rounded-lg p-4">
           <p className="text-destructive text-sm text-center">
-            <strong>Bei Notfällen:</strong> Wählen Sie immer zuerst den Notruf 112 oder 110
+            <strong>Bei Notfällen:</strong> Wählen Sie immer den Notruf 112 oder 110
           </p>
         </div>
       </div>
