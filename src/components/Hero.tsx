@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { HeartHandshake, Users, MapPin } from "lucide-react";
+import { Users, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -31,7 +31,7 @@ const Hero = () => {
               size="lg"
               className="text-lg px-8 py-6 h-auto min-w-48 border-2 border-white shadow-lg"
             >
-              <HeartHandshake className="w-6 h-6 mr-2" />
+              <img src="/logo-transparent.svg" alt="Logo" className="w-6 h-6 mr-2 text-primary" />
               Um Hilfe bitten
             </Button>
           </a>

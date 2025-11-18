@@ -1,4 +1,4 @@
-import { HeartHandshake, ArrowLeft } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
@@ -8,8 +8,8 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <div className="bg-primary w-10 h-10 rounded-full flex items-center justify-center">
-              <HeartHandshake className="w-6 h-6 text-white" />
+            <div className="bg-primary w-10 h-10 rounded-full flex items-center justify-center p-1.5">
+              <img src="/favicon.svg" alt="Besigheim Hilft Logo" className="w-full h-full" />
             </div>
             <h1 className="text-xl font-bold text-foreground">Besigheim Hilft</h1>
           </a>

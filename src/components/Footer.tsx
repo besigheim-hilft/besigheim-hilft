@@ -1,5 +1,3 @@
-import { HeartHandshake } from "lucide-react";
-
 const Footer = () => {
   return (
     <footer className="bg-muted border-t border-border">
@@ -8,8 +6,8 @@ const Footer = () => {
           {/* Logo und Beschreibung */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="bg-primary w-10 h-10 rounded-full flex items-center justify-center">
-                <HeartHandshake className="w-6 h-6 text-white" />
+              <div className="bg-primary w-10 h-10 rounded-full flex items-center justify-center p-1.5">
+                <img src="/favicon.svg" alt="Besigheim Hilft Logo" className="w-full h-full" />
               </div>
               <h3 className="text-xl font-bold text-foreground">Besigheim Hilft</h3>
             </div>
